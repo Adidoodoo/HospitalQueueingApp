@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HospitalQueueingApp</string>
+    <string name="error_first_name_blank">Field must not be left blank</string>
+    <string name="error_last_name_blank">Field must not be left blank</string>
+    <string name="error_middle_name_blank">Field must not be left blank</string>
+    <string name="error_house_address_blank">Field must not be left blank</string>
+    <string name="error_mobile_number_blank">Field must not be left blank</string>
+    <string name="error_invalid_mobile_number">Invalid mobile number</string>
+</resources>

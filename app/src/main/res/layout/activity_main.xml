@@ -1,0 +1,42 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HealthLine"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="40dp" />
+
+        <Button
+            android:id="@+id/btn_queue_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Queue Up"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:backgroundTint="#FF0000"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_queue_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Queue Status"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FF0000"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
